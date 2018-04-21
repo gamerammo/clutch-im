@@ -1,6 +1,8 @@
 # Clutchat Homepage
+Welcome to the official homepage of Clutchat. located at [clutch.im](https://clutch.im). This repository contains all the files used on the current version of the Clutchat website.
+
 ![homepage](assets/images/homepage.png)
-The official homepage of Clutchat. located at [clutch.im](https://clutch.im). This repository contains all the files used on the current version of the Clutchat website.
+
 
 ## About Us
 Gamer Ammo is on a mission of declaration: _Gaming is a Profession_. We are declaring this a fact by building a suite of gaming related software aimed at making the gamer's environment more accessibly to profiting from their profession. This website is the homepage for our flagship product [Clutchat](https://github.com/gamerammo/clutchat), the gamer's hub for chat, content, and finance. We are making this possible by utilizing decentralized peer-to-peer technologies and building the platform gamer-first.
