@@ -1,4 +1,5 @@
 # Clutchat Homepage
+![homepage](assets/images/homepage.png)
 The official homepage of Clutchat. located at [clutch.im](https://clutch.im). This repository contains all the files used on the current version of the Clutchat website.
 
 ## About Us
