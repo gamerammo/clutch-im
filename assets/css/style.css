@@ -199,6 +199,22 @@ a,
   background-position: center center;
 }
 }
+
+.clutchat-description p{
+  font-size:18px;
+  text-align:center;
+}
+.clutchat-description p.last-paragraph{
+  margin-bottom:8%;
+}
+.clutchat-description h3{
+  font-weight:bold;
+  font-size: 36px;
+  margin-bottom:5%;
+  color:#F9A12C;
+  margin-top:5%;
+}
+
 a.gamerammo{
   background: url(../images/clutchat.svg);
   display: block;
@@ -209,7 +225,7 @@ a.gamerammo{
   background-repeat:no-repeat;
   background-position: center center;
 }
-a.discord{
+a.clutchat{
   background: url(../images/logo-collection/clutchat-logos/SVG/clutchat.svg);
   display: block;
   text-indent: -9999px;
@@ -253,6 +269,7 @@ a.youtube{
   background-repeat:no-repeat;
   background-position: center center;
 }
+
 svg.social-section-icon:hover{
   fill:#000;
 }
@@ -3014,6 +3031,19 @@ background-size: cover;
 }
 
 @media (max-width: 767px) {
+  .clutchat-logo{
+    display:none;
+  }
+  .clutchat-description h3{
+    font-size:24px;
+    margin-bottom:1%;
+  }
+  .clutchat-description p{
+    font-size:14px;
+  }
+  .clutchat-description .third-paragraph{
+    display:none;
+  }
   /* Navbar */
   .navbar-custom .navbar-nav {
     letter-spacing: 3px;
