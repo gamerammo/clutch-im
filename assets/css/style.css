@@ -3032,11 +3032,14 @@ background-size: cover;
   .right-boxes{
     width:45%; display:inline-block; float:right; text-align:center;
   }
+  .left-boxes{
+    width:45%; display:inline-block; float:left; text-align:center;
+  }
   .email-form{
   float:right; text-align:center;
   }
   .email-tix{
-    width:100%; display:inline-block; text-align:center; margin-top:5%;
+    display:inline-block; text-align:center; margin-top:5% ;
   }
   .beclutch{
     margin-top:0%;
@@ -3046,7 +3049,6 @@ background-size: cover;
   .experience-checkbox label{
     font-size:8px;
   }
-
   .tickbox label{
     font-size:8px;
   }
