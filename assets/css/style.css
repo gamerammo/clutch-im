@@ -218,6 +218,9 @@ a,
   display:inline-block;
   width:100%;
 }
+.clutch-signup-form strong {
+  font-size:16px; color: #f8f8f8; margin-bottom:0; text-align:center; line-height:12px;
+}
 .clutch-signup-form strong span{
   font-size:12px; color:#F9A12C; font-weight:300;
 }
@@ -242,6 +245,13 @@ padding-left:0; margin-left:0; text-align:left !important;
 }
 .experience-checkbox label{
   font-size:12px;padding-left:5px;
+}
+.tickbox{
+  padding-left:0; margin-left:0;
+  text-algin:center;
+}
+.tickbox label{
+  padding-left:5px; font-size:12px;
 }
 .module-extra-small {
   padding: 25px 0px;
@@ -3009,6 +3019,9 @@ background-size: cover;
   .clutchat-description .third-paragraph{
     display:none;
   }
+  .clutch-signup-form strong {
+    font-size:14px;
+  }
   .clutch-signup-form strong span{
     font-size:8.5px;
     font-weight:300;
@@ -3023,7 +3036,7 @@ background-size: cover;
   float:right; text-align:center;
   }
   .email-tix{
-    width:100%; display:inline-block; text-align:center; margin-top:5%;padding-right:15%;
+    width:100%; display:inline-block; text-align:center; margin-top:5%;
   }
   .beclutch{
     margin-top:0%;
@@ -3031,6 +3044,10 @@ background-size: cover;
     top:0;
   }
   .experience-checkbox label{
+    font-size:8px;
+  }
+
+  .tickbox label{
     font-size:8px;
   }
   ul {
