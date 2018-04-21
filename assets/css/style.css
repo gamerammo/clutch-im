@@ -214,70 +214,35 @@ a,
   color:#F9A12C;
   margin-top:5%;
 }
-
-a.gamerammo{
-  background: url(../images/clutchat.svg);
-  display: block;
-  text-indent: -9999px;
-  height:50px;
-  width:200px;
-  background-size:auto;
-  background-repeat:no-repeat;
-  background-position: center center;
+.clutch-signup-form{
+  display:inline-block;
+  width:100%;
 }
-a.clutchat{
-  background: url(../images/logo-collection/clutchat-logos/SVG/clutchat.svg);
-  display: block;
-  text-indent: -9999px;
-  height:75px;
-  width:auto;
-  margin-top:-20px;
-  background-size:50px 75px;
-  background-repeat:no-repeat;
-  background-position: center center;
+.clutch-signup-form strong span{
+  font-size:12px; color:#F9A12C; font-weight:300;
 }
-a.twitch{
-  background: url(../images/twitch.svg);
-
-  display: block;
-  text-indent: -9999px;
-  height:50px;
-  width:auto;
-  background-size:33px 35px;
-  background-repeat:no-repeat;
-  background-position: center center;
+.left-boxes{
+  width:45%; display:inline-block; float:left; text-align:center;
 }
-a.twitter{
-  background: url(../images/twitter.svg);
-
-  display: block;
-  text-indent: -9999px;
-  height:50px;
-  width:auto;
-  background-size:40px 35px;
-  background-repeat:no-repeat;
-  background-position: center center;
+.platform-checkboxes{
+  width:100%;margin-top:5%; text-align:left;padding-left:0; margin-left:0;margin-right:15%;
 }
-a.youtube{
-  background: url(../images/youtube.svg);
-
-  display: block;
-  text-indent: -9999px;
-  height:50px;
-  width:auto;
-  background-size:50px 35px;
-  background-repeat:no-repeat;
-  background-position: center center;
+.right-boxes{
+  width:45%; display:inline-block; float:right; text-align:center;
 }
-
-svg.social-section-icon:hover{
-  fill:#000;
+.email-form{
+float:right; text-align:center;
 }
-/* Module header */
-.module-small {
-  padding: 70px 0;
+.email-tix{
+  width:100%; display:inline-block; text-align:center; margin-top:5%;padding-right:15%;
 }
-
+.beclutch{margin-top:5%;}
+.experience-checkbox{
+padding-left:0; margin-left:0; text-align:left !important;
+}
+.experience-checkbox label{
+  font-size:12px;padding-left:5px;
+}
 .module-extra-small {
   padding: 25px 0px;
 }
@@ -3043,6 +3008,34 @@ background-size: cover;
   }
   .clutchat-description .third-paragraph{
     display:none;
+  }
+  .clutch-signup-form strong span{
+    font-size:8.5px;
+    font-weight:300;
+  }
+  .platform-checkboxes{
+    width:100%;margin-top:5%; text-align:left;padding-left:0; margin-left:0;margin-right:0%;
+  }
+  .right-boxes{
+    width:45%; display:inline-block; float:right; text-align:center;
+  }
+  .email-form{
+  float:right; text-align:center;
+  }
+  .email-tix{
+    width:100%; display:inline-block; text-align:center; margin-top:5%;padding-right:15%;
+  }
+  .beclutch{
+    margin-top:0%;
+    padding-top:0%;
+    top:0;
+  }
+  .experience-checkbox label{
+    font-size:8px;
+  }
+  ul {
+    margin: 0 0 0;
+    padding-left:5%;
   }
   /* Navbar */
   .navbar-custom .navbar-nav {
